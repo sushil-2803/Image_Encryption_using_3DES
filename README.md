@@ -8,7 +8,18 @@ Uses pycrpto package to encrpyt the image(png,jpeg,jpg) using 3 DES method.
 Secret key is generated and displayed on screen wiht copy to clipboard option.
 Uses sha hashing technique to verify the validity of key and integrity of decrypted image file.
 
-Install packages from requirements.txt
+### Packages used
+
+| Library Name | Version | Installation Command       |
+|--------------|---------|----------------------------|
+| pycrypto     | 2.6.1   | pip install pycrypto       |
+| pyperclip    | 1.8.2   | pip install pyperclip      |
+| scerets      | 21.2.0  | pip install python-secrets |
+
+### For Linux users
+```
+sudo apt-get install xclip
+```
 
 To run the program 
 ```
